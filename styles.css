@@ -1,0 +1,514 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+  --preto:#0D121E;
+  --branco:#FFFFFF;
+  --fonte: "Poppins";
+  --laranja: #F0B35B;
+  --laranja-hover: #3A290F;
+  --azul: 
+}
+
+body{
+  background-color: var(--preto);
+  font-family: "Poppins", sans-serif;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+  font-size: 18px;
+  font-weight: 400;
+  align-items: center;
+}
+
+.menu__logo{
+  display: flex;
+  gap: 4em;
+  align-items: center;
+}
+
+.menu__lista{
+  display: flex;
+  gap: 2em;
+}
+
+.menu__iten-link{
+  text-decoration: none;
+  color: var(--branco);
+}
+
+.menu__botao{
+  color: var(--preto);
+  background-color: var(--laranja);
+  padding: 1em 4em;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+.menu__botao:hover{
+  color: var(--branco);
+  background-color: var(--laranja-hover);
+  stroke-width: 2px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: var(--branco);
+  border-radius: 20px;
+}
+
+.banner{
+  padding: 16em 18em;
+  text-align: center;
+  background-image: url(/Assents/Rectangle\ 6.png);
+  background-position: bottom;
+  background-size:100%;
+  background-repeat: no-repeat;
+}
+
+h1{
+  font-weight: bold;
+  font-size: 44px;
+  color: var(--branco);
+  margin-bottom: 0.6em;
+}
+
+.titulo__cabecalho{
+  font-size: 28px;
+  color: var(--branco);
+  margin-bottom: 1.5em;
+}
+
+.sobre{
+  display: flex;
+  padding: 11em 3.5em 8.75em 3.5em;
+  align-items: center;
+  gap: 7em;
+
+}
+
+.sobre_container{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+
+.titulo__sobre{
+  color: var(--branco);
+  font-size: 40px;
+  font-weight: bold;
+
+}
+
+.texto__sobre{
+  color: var(--branco);
+  text-align: justify;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.servicos{
+  padding: 6.5em 10em;
+  background-color: var(--branco);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+}
+
+.titulo__servicos{
+  font-size: 40px;
+  font-weight: bold;
+  color: var(--preto);
+}
+
+.texto__servicos{
+  width: 45em;
+  text-align: center;
+  font-size: 16px;
+  color: var(--preto);
+}
+
+.fotos__servicos{
+  display: flex;
+  gap: 1.5em;
+}
+
+.box__foto__servicos{
+  box-shadow: 2px 10px 15px 0px rgba(0, 0, 0, 35%);
+  border-radius: 0 0 20px 20px;
+}
+
+.box__foto-dados{
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.descricao__servico{
+  color: var(--preto);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.preco{
+  color: var(--branco);
+  background-color: var(--preto);
+  padding: 0.5em;
+  border-radius: 10px;
+}
+
+.galeria{
+  padding: 6em 13em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+}
+
+.galeria__galeria{
+  
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+}
+
+
+.titulo__galeria{
+  transform: rotate(270deg);
+  color: #646464;
+  font-size: 44px;
+  font-weight: bold;
+}
+
+.galeria__fotos{
+  display: flex;
+  gap: 1.5em
+}
+
+.box__galeria{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
+}
+
+.portifolio{
+  width: 20em;
+  border-radius: 10px;
+}
+
+.icon{
+  width: 1.5em;
+}
+
+
+.instagram{
+  color: var(--laranja);
+  text-decoration: none;
+  font-size: 16px;
+}
+
+footer{
+  padding: 11em 19em 4em 16em;
+  background-color: var(--branco);
+
+}
+
+.rodape{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titulo__rodape{
+  font-size: 40px;
+  font-weight: bold;
+  color: var(--preto);
+  margin-bottom: 2em;
+}
+
+.imagem__endereco{
+  width: 26em;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dados__local{
+  background-color: rgba(0, 0, 0, 70%);
+  padding: 0.5em 3em;
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--branco);
+  stroke-width: 1px;
+  width: 12em;
+  margin-top: -73px;
+  margin-bottom: 75px;
+  border-radius: 10px;
+}
+
+.rua__numero{
+  color: var(--branco);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.cidade__estado{
+  color: var(--branco);
+  font-size: 16px;
+}
+
+.icons{
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  
+}
+
+.icon__rodape{
+  width: 1.5em;
+  margin-bottom: 1em;
+}
+
+.menu-hamburger{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index:10;
+}
+
+.menu-hamburguer-elements{
+  display: flex;
+  width: 80%;
+  height: 10vh;
+  justify-content: space-around;
+  align-items: center;
+  z-index:10;
+  gap: 1em;
+}
+
+.menu-hamburguer-elements li{
+  list-style: none;
+  font-size: 16px;
+  margin: 2rem 0;
+  font-size: 1.4rem;
+  list-style: none;
+  z-index:10;
+}
+
+.menu-hamburguer-elements a{
+  color: white;
+  text-decoration: none;
+}
+
+.menu-hamburguer-elements a:hover{
+  color: rgba(20,20,20,.8)
+}
+
+.botao-whatsapp{
+  position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+  z-index:1000;
+}
+
+
+/* BOTÃO MENU HAMBURGUER */
+.menu {
+  background-color: var(--laranja);
+  width: 60px;
+  height: 60px;
+  margin: 1rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+  z-index:10;
+}
+
+.hamburguer {
+  position: relative;
+  display: block;
+  background: #fff;
+  width: 30px;
+  height: 2px;
+  top: 29px;
+  left: 15px;
+  transition: 0.5s ease-in-out;
+}
+
+.hamburguer:before,
+.hamburguer:after {
+  background: #ffff;
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: 0.5s ease-in-out;
+}
+
+.hamburguer:before {
+  top: -10px;
+}
+
+.hamburguer:after {
+  bottom: -10px;
+}
+
+input {
+  display: none;
+}
+
+label{
+  z-index: 2;
+}
+
+/* rotação dos elementos do span */
+input:checked ~ label .hamburguer {
+  transform: rotate(45deg);
+}
+
+input:checked ~ label .hamburguer:before {
+  transform: rotate(90deg);
+  top: 0;
+}
+
+input:checked ~ label .hamburguer:after {
+  transform: rotate(90deg);
+  bottom: 0;
+}
+
+input:checked ~ .menu-hamburguer-elements{
+  left: 0;
+}
+
+@media (max-width: 1024px) {
+  .sobre{
+    flex-direction: column-reverse;
+  }
+
+  .titulo__sobre{
+    text-align: center;
+  }
+
+  .fotos__servicos{
+    flex-direction: column;
+  }
+
+  .galeria__fotos{
+    flex-direction: column;
+  }
+  .menu-hamburguer-elements a:hover{
+    color: rgb(214, 161, 214);
+}
+
+.menu-hamburger{
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    align-self: flex-start;
+    overflow: auto;
+    z-index: 1;
+    color: white
+}
+
+.menu-hamburguer-elements{
+    width: 50%;
+    height: 100%;
+    background-color: rgba(10,10,10,.9);
+    position: fixed;
+    left: -60%;
+    top: 0;
+
+    transition: left cubic-bezier(1,0,0,1) .8s;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    padding-top: 15vh;
+
+    z-index: 1;
+}
+
+.menu{
+    display: flex;
+    height: 60px;
+    width: 60px;
+}
+}
+
+@media (max-width: 820px){
+  .banner{
+    padding: 10em 1em;
+    background-image: url(/Assents/avaliações\ manual\ de\ emergência\ em\ pequenos\ animais\ \(3\).png);
+  }
+
+  .menu__botao{
+    display: none;
+    width: 0em;
+  }
+
+  nav{
+    justify-content: space-between;
+    padding: 1em;
+  }
+
+  h1{
+    font-size: 24px;
+  }
+
+  .sobre{
+    padding: 8em 1em;
+  }
+
+  .foto__corte-sobre{
+    width: 100%;
+  }
+
+  .servicos{
+    padding: 8em 1em;
+  }
+
+  .texto__servicos{
+    width: 100%;
+  }
+
+  .galeria{
+    padding: 8em 1em;
+  }
+
+  .galeria__galeria{
+    flex-direction: column;
+  }
+
+  .titulo__galeria{
+    transform: rotate(0deg);
+    margin-bottom: 1em;
+  }
+
+  footer{
+    padding: 8em 1em;
+  }
+
+  .imagem__local{
+    width: 100%;
+  }
+
+  .imagem__endereco{
+    width: 100%;
+  }
+
+  .menu-hamburguer-elements {
+    padding: 4em 1em;
+    height: 80%;
+  }
+}

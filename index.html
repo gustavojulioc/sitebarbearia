@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site Barbearia</title>
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="menu__logo">
+        <img src="/Assents/778 branco.svg" alt="logo">
+        
+        <input id="menu-hamburguer" type="checkbox" />
+            <label for="menu-hamburguer">
+                <div class="menu">
+                    <span class="hamburguer"></span>
+                </div>
+            </label>
+
+            <ul class="menu-hamburguer-elements show">
+                <li>
+                    <a href="#sobre">Sobre</a>
+                </li>
+
+                <li>
+                    <a href="#servicos">Serviços</a>
+                </li>
+
+                <li>
+                    <a href="#galeria">Galeria</a>
+                </li>
+                <li>
+                  <a href="#contato">Contato</a>
+                </li>
+                <li>
+                  <a href="#">Agendar Horário</a>
+                </li>
+            </ul>
+      </div>
+      <a class="menu__botao" href="#">Agendar horário</a>
+    </nav>
+    <section class="banner">
+      <h1>
+        ESTILO É UM REFLEXO DA SUA ATITUDE E
+        SUA PERSONALIDADE
+      </h1>
+      <h2 class="titulo__cabecalho">
+        Hórario de funcionamento: 09:00 às 18:00
+      </h2>
+      <a class="menu__botao" href="#">Agendar horário</a>
+    </section>
+  </header>
+  <main>
+    <section class="sobre" id="sobre">
+      <img class="foto__corte-sobre" src="/Assents/Group 5.svg" alt="fotos de corte">
+      <div class="sobre_container">
+        <h2 class="titulo__sobre">
+          Sobre
+        </h2>
+        <p class="texto__sobre">Lorem ipsum dolor sit amet consectetur. Sed vitae egestas risus in eleifend porttitor nam. Amet ut dictumst commodo aliquam eget augue at mi. Commodo sollicitudin ultrices ut nulla venenatis quam at.</p>
+        <p class="texto__sobre">Lorem ipsum dolor sit amet consectetur. Sed vitae egestas risus in eleifend porttitor nam. Amet ut dictumst commodo aliquam eget augue at mi. Commodo sollicitudin ultrices ut nulla venenatis quam at.</p>
+        <a class="menu__botao" href="#">Agendar horário</a>
+      </div>
+    </section>
+    <section class="servicos" id="servicos">
+      <h2 class="titulo__servicos">
+        Serviços
+      </h2>
+      <p class="texto__servicos">Lorem ipsum dolor sit amet consectetur. Etiam mus vitae lectus proin pellentesque mattis iaculis. In viverra accumsan sagittis tempus duis a. Sagittis mollis a eu urna eget id.</p>
+      <div class="fotos__servicos">
+        <div class="box__foto__servicos">
+          <img src="/Assents/Rectangle 12.svg" alt="corte cabelo">
+          <div class="box__foto-dados">
+            <p class="descricao__servico">Corte de cabelo</p>
+            <p class="preco">R$ 55,90</p>
+          </div>
+        </div>
+        <div class="box__foto__servicos">
+          <img src="/Assents/Rectangle 12 (2).svg" alt="corte cabelo">
+          <div class="box__foto-dados">
+            <p class="descricao__servico">Corte & Barba</p>
+            <p class="preco">R$ 55,90</p>
+          </div>
+          
+        </div>
+        <div class="box__foto__servicos">
+          <img src="/Assents/Rectangle 12 (1).svg" alt="corte cabelo">
+          <div class="box__foto-dados">
+            <p class="descricao__servico">Corte completo</p>
+            <p class="preco">R$ 55,90</p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <section class="galeria" id="galeria">
+      <div class="galeria__galeria">
+        <h2 class="titulo__galeria">Galeria</h2>
+        <div class="galeria__fotos">
+
+          <a class="box__galeria" href="#">
+            <img class="portifolio" src="/Assents/Rectangle 16.svg" alt="galeria">
+            <img class="icon" src="/Assents/instagram icon.svg" alt="icon instagran">
+          </a>
+          <a class="box__galeria" href="#">
+            <img class="portifolio" src="/Assents/Rectangle 16 (1).svg" alt="galeria">
+            <img class="icon" src="/Assents/instagram icon.svg" alt="icon instagran">
+          </a>
+          <a class="box__galeria" href="#">
+            <img class="portifolio" src="/Assents/Rectangle 16 (2).svg" alt="galeria">
+            <img class="icon" src="/Assents/instagram icon.svg" alt="icon instagran">
+          </a>
+        </div>
+        
+      </div>
+      <a class="instagram" href="#">veja mais</a>
+    </section>
+    
+  </main>
+  <footer>
+    <section class="rodape" id="contato">
+      <h2 class="titulo__rodape">Contato</h2>
+      <div class="imagem__endereco">
+        <img class="imagem__local" src="/Assents/Rectangle 18.svg" alt="local">
+        <div class="dados__local">
+          <p class="rua__numero">Rua Gustavo, n 100</p>
+          <p class="cidade__estado">Osasco - SP</p>
+        </div>
+        <div class="icons">
+          <a href="#"><img class="icon__rodape" src="/Assents/instagram.svg" alt="instagram icon"></a>
+          <a href="#"><img class="icon__rodape" src="/Assents/Vector.svg" alt="whatsapp icon"></a>
+          
+        </div>
+        <img class="logo__rodape" src="/Assents/logo-blue 1.svg" alt="logo">
+      </div>
+      <a class="botao-whatsapp"  href="https://wa.me/55(aqui seu numero com ddd | tudo junto)?text=Adorei%20seu%20artigo" target="_blank"><i style="margin-top:16px" class="fa fa-whatsapp"></i></a>
+    </section>
+  </footer>
+</body>
+</html>
