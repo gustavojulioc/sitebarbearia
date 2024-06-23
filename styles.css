@@ -17,15 +17,21 @@
 body{
   background-color: var(--preto);
   font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 nav{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 2em;
   font-size: 18px;
   font-weight: 400;
   align-items: center;
+  position:fixed;
+  width: 100%;
+  background-color: rgba(20,20,20,.8);
 }
 
 .menu__logo{
@@ -50,6 +56,7 @@ nav{
   padding: 1em 4em;
   text-decoration: none;
   border-radius: 20px;
+  margin: 0 1em;
 }
 
 .menu__botao:hover{
