@@ -69,6 +69,26 @@ nav{
   border-radius: 20px;
 }
 
+.botao__cabecalho{
+  color: var(--preto);
+  background-color: var(--laranja);
+  padding: 1em 4em;
+  text-decoration: none;
+  border-radius: 20px;
+  margin: 0 1em;
+}
+
+.botao__cabecalho:hover{
+  color: var(--branco);
+  background-color: var(--laranja-hover);
+  stroke-width: 2px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: var(--branco);
+  border-radius: 20px;
+}
+
+
 .banner{
   padding: 16em 18em;
   text-align: center;
